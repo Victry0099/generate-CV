@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resumestyle.css">
+    <title>resume</title>
+</head>
+<body>
+    <header class="home_header">
+        <div class="home_logo">Personal Website</div>
+        <div class="h_nav-div">
+          <nav class="h_navbar">
+            <ul class="h_nav-ul">
+              <li class="h_nav-list"><a class="h_nav-link" href="/">Home</a></li>
+              <li class="h_nav-list"><a class="h_nav-link" href="about.html">About</a></li>
+              <li class="h_nav-list"><a class="h_nav-link" href="genrateCV.html">BuildCV</a></li>
+              <!-- <li class="h_nav-list"><a class="h_nav-link" href="#work-me">My Work</a></li> -->
+              <li class="h_nav-list"><a class="h_nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+
+    <div class="main">
+        <h1 >Resume Maker</h1>
+        <form class="form">
+            <div class="container">
+                <div class="left">
+                    <div class="personal_detail">
+                        <h1 class="h_detail">Personal Details</h1>
+                        <div class="div_name">
+                            <label class="lable_class" for="fname">First Name</label>
+                            <input class="input_class" type="text" id="fname" placeholder="Enter first Name">
+                            <label class="lable_class" for="last_name">Last Name</label>
+                            <input class="input_class" type="text" id="last_name" placeholder="Enter last Name">
+                        </div>
+                        <div class="head1">
+                            <label class="lable_class" for="headLine">Profile</label>
+                            <input class="input_class email_class pclass" type="text" id="headLine" placeholder="Developer">
+                        </div>
+                        <div class="mail">
+                            <label class="lable_class" for="email">Email</label>
+                            <input class="input_class email_class" type="email" id="email" placeholder="abc@email.com">
+                        </div>
+                        <div class="num_class">
+                            <label class="lable_class" for="phone">Phone</label>
+                            <input class="input_class phone_class" id="phone" type="tel" placeholder="0123456789">
+                        </div>
+                        <div class="add_class">
+                            <label class="lable_class" for="address">Address</label>
+                            <input class="input_class address_class" id="address" type="text" placeholder="address">
+                        </div>
+                        <div class="li_class">
+                            <label class="lable_class" for="linkdin">Linkdin</label>
+                            <input class="input_class address_class lclass" id="linkdin" type="text" placeholder="linkdin">
+                        </div>
+                        <div class="github_class">
+                            <label class="lable_class" for="github">Github</label>
+                            <input class="input_class address_class gclass" id="github" type="text" placeholder="Github">
+                        </div>
+                    </div>
+                    <div class="education">
+                        <h1 class="h_detail">Education</h1>
+                        <div class="edu">
+                            <label class="lable_class" for="school">School</label>
+                            <input class="input_class sch_class" id="school" type="text" placeholder="School/University name">
+                            <label class="lable_class" for="degree">Degree</label>
+                            <input class="input_class" id="degree" type="text" placeholder="Degree name"> <br>
+                            <label class="lable_class" for="">Start Date</label>
+                            <select class="select_class" name="" id="startMonth">
+                                <optgroup label="Month">
+                                    <option value="">January</option>
+                                    <option value="">February</option>
+                                    <option value="">March</option>
+                                    <option value="">April</option>
+                                    <option value="">May</option>
+                                    <option value="">June</option>
+                                    <option value="">July</option>
+                                    <option value="">August</option>
+                                    <option value="">September</option>
+                                    <option value="">October</option>
+                                    <option value="">November</option>
+                                    <option value="">December</option>
+                                </optgroup>
+                            </select>
+                            <select class="select_class" name="" id="startYear">
+                                <optgroup label="year">
+                                    <option value="2000">2000</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2006">2006</option>
+                                    <option value="2007">2007</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2024">2024</option>
+                                </optgroup>
+                            </select>
+                            <label class="lable_class end_class" for="endMonth">End Date</label>
+                            <select class="select_class" name="" id="endMonth">
+                                <optgroup label="Month">
+                                    <option value="">January</option>
+                                    <option value="">February</option>
+                                    <option value="">March</option>
+                                    <option value="">April</option>
+                                    <option value="">May</option>
+                                    <option value="">June</option>
+                                    <option value="">July</option>
+                                    <option value="">August</option>
+                                    <option value="">September</option>
+                                    <option value="">October</option>
+                                    <option value="">November</option>
+                                    <option value="">December</option>
+                                </optgroup>
+                            </select>
+
+                            <select class="select_class" name="" id="endYear">
+                                <optgroup label="year">
+                                    <option value="2000">2000</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2006">2006</option>
+                                    <option value="2007">2007</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2024">2024</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="soft_skill">
+                        <h1>Soft Skill</h1>
+                        <!-- <label  class="lable_class"  for="">Soft skill</label> <br> -->
+                        <div class="all_center">
+                            <input class="input_class" id="softSkill1" type="text" placeholder=" soft skill">
+                            <input class="input_class" id="softSkill2" type="text" placeholder=" soft skill">
+                            <input class="input_class" id="softSkill3" type="text" placeholder=" soft skill">
+                            <input class="input_class" id="softSkill4" type="text" placeholder=" soft skill">
+                            <input class="input_class" id="softSkill5" type="text" placeholder=" soft skill">
+                            <input class="input_class" id="softSkill6" type="text" placeholder=" soft skill">
+                        </div>
+
+                    </div>
+                    <div class="achiv">
+                        <h1>Achivement</h1>
+                        <div class="all_center">
+                            <input class="input_class" id="achiv1" type="text" placeholder="Achievement">
+                            <input class="input_class" id="achiv2" type="text" placeholder="Achievement">
+                            <input class="input_class" id="achiv3" type="text" placeholder="Achievement">
+                            <input class="input_class" id="achiv4" type="text" placeholder="Achievement">
+                        </div>
+                    </div>
+                    <div class="hobby">
+                        <h1>Hobbies</h1>
+                        <div class="all_center">
+                            <input class="input_class" id="hobbi1" type="text" placeholder="Hobbies">
+                            <input class="input_class" id="hobbi2" type="text" placeholder="Hobbies">
+                            <input class="input_class" id="hobbi3" type="text" placeholder="Hobbies">
+                            <input class="input_class" id="hobbi4" type="text" placeholder="Hobbies">
+                        </div>
+                    </div>
+                    <div class="lang">
+                        <h1>Language</h1>
+                        <div class="all_center">
+                            <input class="input_class" id="lang1" type="text" placeholder="Language">
+                            <input class="input_class" id="lang2" type="text" placeholder="Language">
+                            <input class="input_class"id="lang3" type="text" placeholder="Language">
+                           
+                        </div>
+                    </div>
+
+                </div>
+                <div class="right">
+                    <div class="tech_skill">
+                        <h1>Technical Skill</h1>
+                        <div class="all_center">
+                            <input class="input_class" id="techSkill1" type="text" placeholder="Tech Skill ">
+                            <input class="input_class" id="techSkill2" type="text" placeholder="Tech Skill">
+                            <input class="input_class" id="techSkill3" type="text" placeholder="Tech Skill">
+                            <input class="input_class" id="techSkill4" type="text" placeholder="Tech Skill">
+                            <input class="input_class" id="techSkill5" type="text" placeholder="Tech Skill">
+                            <input class="input_class" id="techSkill6" type="text" placeholder="Tech Skill">
+                        </div>
+                    </div>
+                    <div class="intern">
+                        <h1>Internship</h1>
+                        <div class="all_center">
+                        <input class="input_class" id="in_profile" type="text" placeholder="Internship profile"><br>
+                    </div>
+                        <textarea class="all_textaria" placeholder="write about your internship" name="" id="intern_details" cols="60"
+                            rows="5"></textarea>
+                    </div>
+                    <div class="project">
+                        <h1>Project</h1>
+                        <h3>Project Details</h3>
+
+                        <textarea class="all_textaria" placeholder="write your project details" name="" id="projectDetails" cols="60"
+                            rows="5"></textarea>
+                    </div>
+                    <div class="work_experince">
+                        <h1>Work Experince</h1>
+                        <textarea class="all_textaria" placeholder="write your project details" name="" id="workExp" cols="60"
+                            rows="5"></textarea>
+                    </div>
+
+                    <div class="certi">
+                        <h1>Certification</h1>
+                        <div class="all_center">
+                            <input class="input_class" id="certificate1" type="text" placeholder="Certification">
+                            <input class="input_class" id="certificate2" type="text" placeholder="Certification">
+                            <input class="input_class" id="certificate3" type="text" placeholder="Certification">
+                            <input class="input_class" id="certificate4" type="text" placeholder="Certification">
+                            <input class="input_class" id="certificate5" type="text" placeholder="Certification">
+                        </div>
+                    </div>
+                    <div class="sum">
+                        <h1>Summary</h1>
+                        <textarea class="all_textaria" id="in_summary" placeholder="write your profile summary" name="" id="" cols="60"
+                        rows="5"></textarea>
+                    </div>
+                </div>
+
+            </div>
+            <div class="div_btn">
+            <button class="btn" onclick="clickMe(event)">Resume Gentate</button>
+        </div>
+        </form>
+
+    </div>
+
+<!-- output -->
+
+
+    <div class="main1">
+        <div class="out_center">
+            <div class="container_top">
+                <h1 class="h1_class" id="uName"></h1>
+                <h3 class="h3_class">Full Stack Web Developer</h3>
+                <ul class="ul_first">
+                    <li>Phone: <span class="span_ph" id="phone_num"></span></li>
+                    <li>Email: <span class="span_em" id="uEmail"></span></li>
+                    <li>Address: <span class="span_ad" id="uAddress"></span></li>
+                </ul>
+                <ul class="ul_second">
+                    <li>Linkdin: <span class="span_linkd" id="uLinkdin" ></span></li>
+                    <li>Github: <span class="span_git" id="uGithub"></span></li>
+                </ul>
+            </div>
+            <div class="container1">
+                <div class="left_side">
+                    <div class="out_summary">
+                        <h1  class="left_h1">Summary</h1>
+                        <p  class="para" id="uSummary"></p>
+                    </div>
+                    <div class="out_education">
+                        <h1 class="left_h1" >Education</h1>
+                        <p class="para" id="outUniversity"></p>
+                        <p class="para" id="outDate"></p>
+                        <p class="para" id="outDegree"></p>
+                    </div>
+                    <div class="out_soft">
+                        <h1 class="left_h1">Soft Skills</h1>
+                        <ul id="softSkillsList">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            
+
+                        </ul>
+                    </div>
+                    <div class="out_achive">
+                        <h1 class="left_h1">Achivements</h1>
+                        <ul id="achiveList">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            
+
+                        </ul>
+                    </div>
+                    <div class="out_hobi">
+                        <h1 class="left_h1">Hobbies</h1>
+                        <ul id="hobbyList">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="out_lang">
+                        <h1 class="left_h1">Language</h1>
+                        <ul id="langList">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                           
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- <div class="line"></div> -->
+                <div class="right_side">
+                    <div class="out_tach">
+                      
+                    <div class="out_internship">
+                        <h1 class="left_h1">Internship</h1>
+                        <h3 id="uProfile"></h3>
+                        <p class="para" id="uInternDetails"></p>
+                    </div>
+                    <div class="out_project">
+                        <h1 class="left_h1">Project</h1>
+                        <h3>Project Detail</h3>
+                        <p class="para" id="uProjectDetails"></p>
+                    </div>
+                    <div class="out_experince">
+                        <h1 class="left_h1">Work Experince</h1>
+                        <p class="para" id="uworkExp"></p>
+                      
+                       
+                    </div>
+                    <h1 class="left_h1">Technical Skills</h1>
+                    <ul id="techList">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                       
+                       
+                       
+                    </ul>
+                </div>
+
+                    <div class="out_certifiacation">
+                        <h1 class="left_h1">Certifiacation</h1>
+                        <ul id="certiList">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="home_footer">
+        <div class="home_foot">
+          <p>All Right Reserve &copy; BldVictry-2024</p>
+        </div>
+      </footer>
+    <script type="text/javascript" src="app.js"></script>
+ 
+</body>
+</html>

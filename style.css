@@ -1,0 +1,575 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    letter-spacing: 1px;
+}
+body{
+    background: linear-gradient(180deg,#050514,#08081c);
+    background-color: #081b29;
+    /* scroll-behavior: smooth; */
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(11, 11, 34);
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.logo{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 20px;
+    /* border: 2px solid black; */
+}
+
+.nav-div .navbar .nav-ul{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 60px;
+    /* border: 2px solid green; */
+}
+
+.nav-div .navbar .nav-ul .nav-list{
+   
+    list-style: none;
+    /* display: flex;
+    justify-content: space-around; */
+}
+.nav-div .navbar .nav-ul .nav-list .nav-link{
+   
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.nav-div .navbar .nav-ul .nav-list .nav-link:hover{
+    color: #4fe8e8;
+    /* font-size: 24px; */
+}
+.main{
+   /* border: 2px solid red; */
+    /* background-color: darkblue; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.main section .main-div{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+.main section .left-container{
+    /* margin: 20px; */
+    /* border: 2px solid red; */
+    max-width: 600px;
+    /* display: flex; */
+    /* padding-left: 200px; */
+    /* margin-right: 80px; */
+
+     
+}
+.main section .left-container h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+.main section .left-container h2 {
+    font-size: 24px;
+    color: aqua;
+    margin: 10px 0px 8px 0px;
+}
+.main section .right-container{
+    /* border: 2px solid red; */
+    /* max-width: 600px; */
+    margin-left: 80px;
+} 
+.main section .right-container img{
+    background-size: cover;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    
+}
+.main section .left-container p{
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+/* This css for About */
+.about-section{
+    width: 100%;
+    height: 90vh;
+    /* border: 2px solid red; */
+}
+.about-section h3{
+    color: whitesmoke;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+}
+.about-section span{
+    color: #4fe8e8;
+}
+.about-section .about-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-section .about-div .right-about{
+    color: whitesmoke;
+    font-size: 20px;
+    max-width: 700px;
+    /* font-weight: 300; */
+}
+.about-section .about-div .right-about h4{
+    color: cyan;
+    font-size: 25px;
+}
+.about-section .about-div .right-about .btn{
+    background-color: cyan;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    border: 2px solid aqua;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+.about-section .about-div .right-about .btn:hover{
+    background-color: aqua;
+    /* color: rgb(225, 18, 18); */
+    box-shadow: 0 0 20px aqua;
+}
+
+.about-section .about-div .left-about img{
+    /* margin-top: 20px; */
+     height: 400px;
+     width: 400px;
+     border-radius: 50%;
+     transform: scaleX(-1);
+}
+
+ 
+  .home-sci{
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    padding: 20px;
+  }
+  .home-sci a{
+    color: cyan;
+    /* background-color: aquamarine; */
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid cyan;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: transparent;
+    text-decoration: none;
+    /* padding: 14px; */
+    margin: 12px;
+  }
+  .home-sci a:hover{
+    background-color: aqua;
+    color: rgb(225, 18, 18);
+    box-shadow: 0 0 20px aqua;
+  }
+  /* ?This css is About.html page */
+  .aboutDetails{
+    margin-top: 40px;
+  }
+  .aboutDetails .aboutContent, .about_para{
+    color: whitesmoke;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 20px 40px;
+    text-align: justify;
+
+  }
+  .aboutDetails .about-center{
+    color: whitesmoke;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .aboutDetails .about-top{
+    font-size: 40px;
+  }
+  .aboutDetails .about-top2{
+    font-size: 32px;
+    color: aqua;
+   
+  }
+  .aboutDetails .about_para{
+    margin-left: 80px;
+  }
+
+  .aboutDetails .aboutContent {
+    font-size: 26px;
+    color: cyan;
+    font-weight: 700;
+  }
+  .aboutDetails  span{
+    color: cyan;
+  }
+
+  /* ?This page is services */
+  .services_section{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid gold; */
+  }
+  .services_section .service_title{
+    color: whitesmoke;
+    font-size: 35px;
+    text-align: center;
+  }
+  .services_section .services{
+    /* border: 2px solid green; */
+  }
+
+  .services_section .service_title span{
+    color: cyan;
+  }
+  .services_section .services .grid{
+    display: grid;
+    /* background-color: blue; */
+    grid-template-columns:auto auto auto;
+    /* grid-template-rows: auto auto; */
+    /* border: 2px solid cyan; */
+    gap: 60px;
+    /* width: 200px; */
+    height: 400px;
+    /* place-items:center; */
+    margin: 30px 55px 0px 55px ;
+    justify-content: space-evenly;
+
+
+  }
+  .services_section .services .services_left{
+    color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-shadow: 2px 2px 10px rgb(223, 20, 6),-3px -3px 10px rgb(223, 20, 6);
+  }
+  .services_section .services .services_middile{
+     border: 2px solid black;
+    color: whitesmoke;
+    padding: 10px 10px;
+  }
+  .services_section .services .services_middile{
+    color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-shadow: 2px 2px 10px rgb(175, 26, 234),-3px -3px 10px rgb(175, 26, 234);
+  }
+  .services_section .services .services_right{
+    border: 2px solid rgb(52, 231, 81);
+    color: whitesmoke;
+    padding: 10px 10px;
+  }
+  .services_section .services .services_right{
+    color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-shadow: 2px 2px 10px rgb(52, 231, 81),-3px -3px 10px rgb(52, 231, 81);
+  }
+  .services_section .services .grid p{
+    font-size: 16px;
+    text-align: justify;
+    padding: 0px 30px 0px 30px;
+  }
+  .services_section .services .grid div i{
+    font-size: 40px;
+    margin: 10px;
+
+  }
+  .services_section .services .grid h2{
+    color: cyan;
+    margin: 13px 0px 14px 16px;
+}
+.services_section .services .grid .read{
+  display: inline-block;
+  text-decoration: none;
+  /* border: 2px solid cyan; */
+  padding: 8px 10px;
+  /* color: whitesmoke; */
+  border-radius: 20px;
+  border: 2px solid black;
+  font-weight: 600;
+  margin: 10px 0px 0px 38px;
+  background-color: cyan;
+  color: black;
+}
+.services_section .services .grid .read:hover{
+  box-shadow: 2px 2px 10px rgb(88, 82, 211), -2px -2px 10px rgb(221, 242, 88) ;
+}
+
+/*  ?This is my work css */
+.my_work{
+  width: 100%;
+  height: 70vh;
+  /* border: 2px solid lawngreen; */
+}
+.my_work .work h2{
+  color: white;
+  font-size: 35px;
+  text-align: center;
+
+}
+.my_work .work span{
+  color: cyan;
+}
+.my_work .work a{
+  display: inline-block;
+  /* justify-content: center; */
+  /* align-items: center; */
+  font-size: 20px;
+  border: 2px solid rgb(12, 11, 11);
+  padding:4px 12px;
+  border-radius: 20px;
+  color: black;
+  background-color: cyan;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 700px;
+}
+.my_work .work a:hover{
+  box-shadow: 2px 2px 10px cyan, -2px -2px 10px cyan;
+}
+.my_work .work .show_work{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my_work .work .show_work p{
+margin-top: 20px;
+  color: whitesmoke;
+  max-width: 1200px;
+  text-align: justify;
+ font-size: 20px;
+}
+
+/* ?This is contact css  */
+.contact{
+  /* background-color: wheat; */
+  width: 100%;
+  height: 100vh;
+/* border: 2px solid plum; */
+}
+.contact h2{
+  text-align: center;
+  color: whitesmoke;
+  font-size: 35px;
+}
+.contact span{
+  color: cyan;
+
+}
+.contact .contact_me{
+  margin-top: 30px;
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+}
+.contact .contact_me form{
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 3px 3px 12px rgb(175, 26, 234),-3px -3px 12px rgb(65, 220, 234) ;
+}
+.contact .contact_me form label{
+  font-size: 24px;
+  margin: 10px 10px;
+  color: whitesmoke;
+  
+}
+.contact .contact_me form input{
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid salmon;
+  color: whitesmoke;
+  outline: none;
+  width: 550px;
+  font-size: 21px;
+  padding: 7px 20px;
+  border-radius: 15px;
+  margin-left: 10px;
+  background: transparent;
+}
+.contact .contact_me form textarea{
+  color: whitesmoke;
+  width: 550px;
+  font-size: 21px;
+  padding: 7px 15px;
+  border-radius: 15px;
+  margin: 20px 10px;
+  background: transparent;
+}
+.contact .contact_me form .btn{
+ font-size: 20px;
+ font-weight: 600;
+  width: 120px;
+  height: 45px;
+  border-radius: 18px;
+  background-color: cyan;
+  color: black;
+  cursor: pointer;
+  margin-left: 220px;
+  margin-bottom: 20px;
+
+}
+.contact .contact_me form .btn:hover{
+  box-shadow: 2px 2px 8px rgb(72, 236, 72), -2px -2px 8px rgb(197, 242, 73);
+}
+
+/* ?This is footer css */
+.footer{
+  background-color: #050514;
+  width: 100%;
+  height: 12vh;
+  /* border: 2px solid lemonchiffon; */
+  display: flex;
+  align-items:end;
+  justify-content: center;
+}
+
+.footer .foot p{
+  /* margin-top: 10px; */
+  color: whitesmoke;
+  font-size: 20px;
+  color: cyan;
+  font-weight: 500;
+}
+
+/* ?This is my work page css */
+.detail-work{
+  width: 100%;
+}
+.detail-work .form-detail{
+  margin: 10px;
+}
+.detail-work .form-detail img{
+  width: 740px;
+  height: auto;
+}
+.detail-work .list-detail{
+  margin: 10px;
+}
+.detail-work .list-detail img{
+  width: 740px;
+  height: auto;
+}
+.detail-work .nav-work{
+  margin: 10px;
+}
+.detail-work .nav-work img{
+  width: 740px;
+  height: auto;
+}
+.detail-work .table-work {
+  margin: 10px;
+}
+.detail-work .table-work img{
+  width: 740px;
+  height: auto;
+}
+
+.detail-work .work-login {
+  margin: 10px;
+}
+.detail-work .work-login img{
+  width: 740px;
+  height: auto;
+}
+/* ?this is services page css */
+.service_h1{
+  color: cyan;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+.service_h2{
+  color: rgb(236, 67, 225);
+  font-size: 24px;
+  /* font-weight: 600; */
+  margin: 10px 0px;
+}
+.service_h3{
+  color: rgb(175, 27, 244);
+  font-size: 22px;
+  /* font-weight: 600; */
+  margin: 10px 0px;
+}
+.service_para{
+  color: whitesmoke;
+  font-size: 18px;
+  text-align: justify;
+  margin: 0px 30px;
+}
+.my_service{
+  width: 100%;
+  /* margin: 50px 80px 50px 80px; */
+  /* border: 2px solid red; */
+  margin: 50px 0px 50px 0px;
+}
+.my_service .ui_services{
+  margin: 0px 50px;
+}
+.web_developer{
+  width: 100%;
+  /* margin: 50px 80px 50px 80px; */
+  /* border: 2px solid rgb(52, 32, 32); */
+  margin: 50px 0px 50px 0px;
+}
+.web_developer .dev_detailed{
+  margin: 0px 50px;
+}
+.react_dev{
+  width: 100%;
+  /* margin: 50px 80px 50px 80px; */
+  /* border: 2px solid red; */
+  margin: 50px 0px 50px 0px;
+}
+.react_dev .react{
+  margin: 0px 50px;
+}
+
+
+
+
+  
+ 
